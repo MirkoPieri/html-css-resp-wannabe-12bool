@@ -1,4 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
+/* debug */
+
+[class*= "col-"] {
+  margin-top: 20px;
+}
+
+.row {
+  padding: 20px 0;
+}
+
+/* parametri immagini */
+[class*= "col-"] img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* parametri testo */
+h1, h3, span {
+  text-align: center;
 }
